@@ -1,4 +1,4 @@
-import { getCLS, getFID, getFCP, getLCP, getTTFB } from 'web-vitals';
+import { getCLS, getFID, getFCP, getLCP, getTTFB } from '../node_modules/web-vitals/dist/web-vitals';
 
 const reportWebVitals = (onPerfEntry) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
@@ -7,8 +7,9 @@ const reportWebVitals = (onPerfEntry) => {
       getFCP(onPerfEntry);
       getLCP(onPerfEntry);
       getTTFB(onPerfEntry);
-    
+     
   }
 };
 
 export default reportWebVitals;
+ 
