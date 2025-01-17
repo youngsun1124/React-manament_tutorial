@@ -26,7 +26,6 @@ const customers = [{
   'gender' : '남자',
   'job' : '학생'
 }
-
 ]
 
 class App extends  Component{
